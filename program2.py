@@ -108,10 +108,8 @@ all_un_age = get_unique(all_un_age)
 all_un_age.sort()
 print("\nСписок всех возрастов без повторений:", all_un_age)    
 
-
-c = Counter(all_names)
-
 print("\n3 Самых встречающих имён:")    
+c = Counter(all_names)
 for y in c.most_common(3):
     print(y[0],' кол-во:',y[1])
 
