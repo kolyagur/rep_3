@@ -16,3 +16,4 @@ while kol>0:
     del a[:2]    
     n+=1
     kol=len(a)
+    
